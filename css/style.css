@@ -7,9 +7,9 @@
 }
 
 /**----HEADER-----**/
-header{
+.navbar {
     width: 100%;
-    height: 230px;
+    height: 300px;
 }
 header img{
     width: 220px;
@@ -34,7 +34,7 @@ header img{
     width: 300px;
     height: 300px;
 }
-h2 {
+.titulo h2 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style:normal;
@@ -86,37 +86,20 @@ h2 {
     font-weight: 80;
 }
 
-.grid-galeria {
-    width: 100%;
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 250px;
-    gap: 15px;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.grid-galeria div img{
-    width: 200px;
-    height: 200px;
-    
-}
-.grid-galeria2 {
-    width: 100%;
-    margin-top: 150px;
+.grid-galeria2{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 250px;
-    gap: 15px;
-    
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px;
+    gap: 450px;
+    margin-top: 60px;
 }
 
 .grid-galeria2 div img{
     width: 50px;
     height: 50px;
-    margin-left: 610px;
+    margin-left: 180px;
+    margin-top: 80px;
 }
 
 .contenedor2 {
@@ -193,7 +176,12 @@ h2 {
     text-align: center;
     margin-bottom: 200px;
 }
-
+.accordion {
+    margin-top: 200px;
+}
+.tittlecontact{
+    margin-left: 740px;
+}
 /**----FOOTER-----**/
 
 .heros img{
@@ -213,7 +201,7 @@ footer img{
 footer{
     background-color: orange;
     width: 100%;
-    height: 270px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -238,21 +226,26 @@ footer h2{
 /*!------MEDIA QUERY -----*/
 
 @media screen and (max-width:400px){
-    header {
-        width: 400px;
+    .navbar {
+        width: 390px;
         height: 230px;
     }
 }
 
 @media screen and (min-width:400px){
-    header {
-        width: 100%;
-        height: 236px;
+    .navbar {
+        width: 350px;
+        height: 200px;
     }
 }
 @media screen and (max-width:800px){
     .bienvenidos{
-        margin-top: 50px;
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width:800px){
+    .titulo h2 {
+        margin-top: 250px;
     }
 }
 
@@ -264,10 +257,10 @@ footer h2{
         
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:350px){
     footer {
-        width: 400px;
-        height: 270px;
+        width: 100%;
+        height: 300px;
     }
 }
 
@@ -282,9 +275,8 @@ footer h2{
 @media screen and (max-width:570px){
     footer {
     flex-direction: column;
-    height: 350px;
+    height: 390px;
     }
-
 }
 @media screen and (max-width:400px){
     main h2{
@@ -315,8 +307,8 @@ footer h2{
     .title h2{
         font-size: 50px;
         font-weight: 50px;
-        margin-top: 5px;
-        margin-left: 8px;
+        margin-top: 250px;
+        margin-left: 70px;
     }
 }
 @media screen and (min-width:400px){
@@ -328,5 +320,19 @@ footer h2{
 @media screen and (min-width:400px){
     .parrafo {
         text-align: center;
+    }
+}
+
+@media screen and (max-width:400px){
+    .grid-galeria2 {
+        display: grid;
+        grid-template-columns: 400px;
+        gap: 40px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:400px){
+    .tittlecontact{
+        margin-top: 250px;
     }
 }
