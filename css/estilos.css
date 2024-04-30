@@ -100,26 +100,32 @@ header img {
   font-style: normal;
   font-size: 80px;
   font-weight: 80;
-  color: orange; }
+  color: orange;
+  text-align: center; }
 
-.contact {
+.contact h3 {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 15;
+  font-style: normal;
+  color: white;
+  text-align: center; }
+
+.contact .textcontact {
   background-color: gray;
-  width: 500px;
-  height: 550px;
-  display: flex;
-  justify-content: space-evenly;
-  text-align: justify;
+  width: 100%;
+  height: 400px;
   margin-bottom: 300px; }
-
-.textcontact h3 {
-  display: flex;
-  flex-direction: column;
-  padding: 30px; }
+  .contact .textcontact h3 {
+    display: flex;
+    padding: 30px;
+    flex-direction: column; }
 
 .parrafo h2 {
   flex-direction: column;
   text-align: center;
-  margin-bottom: 200px; }
+  margin-bottom: 100px;
+  margin-top: 500px; }
 
 .parrafo h3 {
   flex-direction: column;
@@ -208,6 +214,20 @@ footer {
 @media screen and (max-width: 400px) {
   .productos-contenedor {
     margin-left: 20px; } }
+
+@media screen and (max-width: 800px) {
+  .contenedor3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+@media screen and (max-width: 400px) {
+  .contenedor3 {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column; }
+    .contenedor3 img {
+      margin-left: 50px; } }
 
 @media screen and (max-width: 400px) {
   .textcontact {
@@ -308,8 +328,12 @@ footer {
     margin-left: 140px; } }
 
 @media screen and (max-width: 400px) {
+  .grid-item4 h3 {
+    margin-left: 0px; } }
+
+@media screen and (max-width: 400px) {
   .tittlecontact h2 {
-    margin-left: 85px; } }
+    margin-left: 65px; } }
 
 @media screen and (max-width: 400px) {
   .grid-galeria2 div img {
