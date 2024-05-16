@@ -109,7 +109,6 @@
     }
 }
 .contact {
-    
     h3{
         font-size: 15px;
         font-family: "Lato", sans-serif;
@@ -156,30 +155,43 @@
     
 }
 
-.tittlecontact{
-    h2{
-        margin-left: 740px;
-    }
-}
 .grid-galeria2{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 400px;
-    gap: 270px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px;
     margin-top: 60px;
     margin-bottom: 100px;
-    margin-left: 30px;
+    gap: 100px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     h2{
         margin-left: 100px;
+    }
+    h3{
+        font-size: 17px;
     }
     img{
         width: 50px;
         height: 50px;
         margin-left: 130px;
         margin-top: 80px;
+        
     }
 }
-
+.grid-item2{
+    width: 290px;
+    height: 250px;
+}
+.grid-item3{
+    width: 290px;
+    height: 250px;
+}
+.grid-item4{
+    width: 290px;
+    height: 250px;
+}
 .preg {
     h2 {
         text-align: center;
@@ -195,6 +207,18 @@
     margin-bottom: 200px;
 }
 .formulario {
-    width: 700px;
-    margin-left: 700px;
+    width: 380px;
+    margin-left: 10px;
+    margin-bottom: 200px;
+}
+
+.tittlecontact h2{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80px;
+    font-weight: 80;
+    color: orange;
+    text-align: center;
 }

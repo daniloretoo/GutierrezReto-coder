@@ -142,24 +142,38 @@ header img {
   text-align: center;
   margin-bottom: 100px; }
 
-.tittlecontact h2 {
-  margin-left: 740px; }
-
 .grid-galeria2 {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 400px;
-  gap: 270px;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px;
   margin-top: 60px;
   margin-bottom: 100px;
-  margin-left: 30px; }
+  gap: 100px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center; }
   .grid-galeria2 h2 {
     margin-left: 100px; }
+  .grid-galeria2 h3 {
+    font-size: 17px; }
   .grid-galeria2 img {
     width: 50px;
     height: 50px;
     margin-left: 130px;
     margin-top: 80px; }
+
+.grid-item2 {
+  width: 290px;
+  height: 250px; }
+
+.grid-item3 {
+  width: 290px;
+  height: 250px; }
+
+.grid-item4 {
+  width: 290px;
+  height: 250px; }
 
 .preg h2 {
   text-align: center;
@@ -174,13 +188,24 @@ header img {
   margin-bottom: 200px; }
 
 .formulario {
-  width: 700px;
-  margin-left: 700px; }
+  width: 380px;
+  margin-left: 10px;
+  margin-bottom: 200px; }
+
+.tittlecontact h2 {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: 80;
+  color: orange;
+  text-align: center; }
 
 footer {
   background-color: orange;
   width: 100%;
-  height: 500px;
+  height: 330px;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -241,7 +266,7 @@ footer {
 @media screen and (max-width: 400px) {
   footer {
     flex-direction: column;
-    height: 350px; } }
+    height: 400px; } }
 
 @media screen and (max-width: 400px) {
   main h2 {
@@ -287,71 +312,57 @@ footer {
     margin-bottom: 0px; } }
 
 @media screen and (max-width: 400px) {
+  .contact {
+    width: 400px; } }
+
+@media screen and (max-width: 400px) {
   .boton {
     margin-right: 30px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-galeria2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
-    gap: 100px;
-    margin-left: 0px; } }
-
-@media screen and (max-width: 400px) {
-  .tittlecontact h2 {
-    margin-left: 50px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item2 img {
-    margin-left: 150px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item3 h3 {
-    margin-left: 25px;
-    font-size: 18px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item3 h2 {
-    margin-left: 140px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item3 img {
-    margin-left: 150px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item4 img {
-    margin-left: 150px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item2 h2 {
-    margin-left: 130px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item3 h2 {
-    margin-left: 140px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item4 h2 {
-    margin-left: 120px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item4 h3 {
-    margin-left: 20px;
-    font-size: 20px; } }
-
-@media screen and (max-width: 400px) {
-  .grid-item2 h3 {
-    font-size: 20px;
-    margin-left: 20px; } }
-
-@media screen and (max-width: 400px) {
-  .formulario {
-    margin-left: 25px;
-    width: 300px;
-    margin-bottom: 100px; } }
 
 @media screen and (max-width: 400px) {
   .parrafo p {
     margin-left: 0px;
     margin-right: 10px; } }
+
+@media screen and (min-width: 600px) {
+  .productos-contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; } }
+
+@media screen and (min-width: 401px) {
+  .contenedor3 {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column; } }
+
+@media screen and (max-width: 970px) {
+  .grid-galeria2 {
+    grid-template-columns: 270px 250px;
+    grid-template-rows: 270px 270px; } }
+
+@media screen and (max-width: 710px) {
+  .grid-galeria2 {
+    grid-template-columns: 250px;
+    grid-template-rows: 270px; } }
+
+@media screen and (max-width: 400px) {
+  .grid-galeria2 {
+    grid-template-columns: 250px;
+    grid-template-rows: 270px;
+    margin-left: 40px; } }
+
+@media screen and (min-width: 350px) {
+  .tittlecontact h2 {
+    text-align: center; } }
+
+@media screen and (min-width: 1100px) {
+  .formulario {
+    width: 800px;
+    align-content: center;
+    margin-bottom: 100px; } }
+
+@media screen and (max-width: 400px) {
+  .tittlecontact h2 {
+    font-size: 40px;
+    margin-left: 30px; } }
